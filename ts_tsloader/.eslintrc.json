@@ -1,0 +1,14 @@
+{
+  "parser":"@typescript-eslint/parser",
+  "plugins":["@typescript-eslint"],
+  "parserOptions":{
+    "project":"./tsconfig.json"
+  },
+  "extends":[
+    //使用官方推荐规则
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules":{
+    // "@typescript-eslint/no-inferrable-types":"off"
+  }
+}
